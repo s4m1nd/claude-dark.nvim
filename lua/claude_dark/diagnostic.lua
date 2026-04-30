@@ -1,0 +1,11 @@
+vim.api.nvim_set_hl(0, "DiagnosticError", { fg = "#f4a9a9", bg = "#342321" })
+vim.api.nvim_set_hl(0, "DiagnosticWarn", { fg = "#fab319", bg = "#352c14" })
+vim.api.nvim_set_hl(0, "DiagnosticInfo", { fg = "#9fc5f4", bg = "#202b34" })
+vim.api.nvim_set_hl(0, "DiagnosticHint", { fg = "#79d7b3", bg = "#20312b" })
+vim.api.nvim_set_hl(0, "DiagnosticOk", { fg = "#9aca86", bg = "#233021" })
+
+vim.api.nvim_set_hl(0, "DiagnosticUnderlineError", { sp = "#d47563", undercurl = true })
+vim.api.nvim_set_hl(0, "DiagnosticUnderlineWarn", { sp = "#e8c96b", undercurl = true })
+vim.api.nvim_set_hl(0, "DiagnosticUnderlineInfo", { sp = "#9fc5f4", undercurl = true })
+vim.api.nvim_set_hl(0, "DiagnosticUnderlineHint", { sp = "#79d7b3", undercurl = true })
+vim.api.nvim_set_hl(0, "DiagnosticUnderlineOk", { sp = "#9aca86", undercurl = true })
