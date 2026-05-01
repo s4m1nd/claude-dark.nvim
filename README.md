@@ -1,11 +1,11 @@
 # claude-dark.nvim
 
-A Claude Dark colorscheme for Neovim.
+A Claude colorscheme pair for Neovim.
 
-The palette is based on the Claude Dark Ghostty theme, with the highlight
-structure adapted from `hachy/eva01.vim` so transparent editor backgrounds keep
-working nicely while focused floats, completion menus, selections, and
-diagnostics stay readable.
+The palettes are based on the Claude and Claude Dark Ghostty themes, with the
+highlight structure adapted from `hachy/eva01.vim` so transparent editor
+backgrounds keep working nicely while focused floats, completion menus,
+selections, and diagnostics stay readable.
 
 ## Install
 
@@ -22,6 +22,12 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 }
 ```
 
+Light mode is available as:
+
+```lua
+vim.cmd.colorscheme("claude-light")
+```
+
 For local development:
 
 ```lua
@@ -36,7 +42,9 @@ For local development:
 }
 ```
 
-## Palette
+## Palettes
+
+### Claude Dark
 
 ```text
 background #262624
@@ -52,11 +60,27 @@ cyan       #79d7b3
 pink       #f3aac5
 ```
 
+### Claude Light
+
+```text
+background #faf9f5
+foreground #141413
+selection  #e8e6dc
+cursor     #d97757
+red        #c15f3c
+green      #788c5d
+yellow     #b16803
+blue       #6a9bcc
+purple     #8b6cb0
+cyan       #2e8b8b
+orange     #d97757
+```
+
 ## Attribution
 
 This colorscheme is derived from the highlight layout of
 [`hachy/eva01.vim`](https://github.com/hachy/eva01.vim), licensed under MIT.
-The color palette comes from the Claude Dark Ghostty theme in
+The color palettes come from the Claude Ghostty themes in
 [`mbadolato/iTerm2-Color-Schemes`](https://github.com/mbadolato/iTerm2-Color-Schemes).
 
 ## License
