@@ -14,18 +14,37 @@ endif
 let g:colors_name = 'claude-light'
 
 " Claude Light palette
-" bg=#faf9f5 fg=#141413 selection=#e8e6dc cursor=#d97757
+" bg=#faf9f5 fg=#141413 selection=#dcd4c0 cursor=#d97757
+
+" Terminal ANSI colors"{{{
+let g:terminal_color_0 = '#141413'
+let g:terminal_color_1 = '#a34932'
+let g:terminal_color_2 = '#4f7d38'
+let g:terminal_color_3 = '#8e5f00'
+let g:terminal_color_4 = '#3f77a8'
+let g:terminal_color_5 = '#76569d'
+let g:terminal_color_6 = '#1f7474'
+let g:terminal_color_7 = '#6f6e69'
+let g:terminal_color_8 = '#b5b3a9'
+let g:terminal_color_9 = '#b65339'
+let g:terminal_color_10 = '#4f7d38'
+let g:terminal_color_11 = '#9a6200'
+let g:terminal_color_12 = '#426f9d'
+let g:terminal_color_13 = '#8b6cb0'
+let g:terminal_color_14 = '#237c7c'
+let g:terminal_color_15 = '#141413'
+"}}}
 
 " General colors"{{{
-hi ColorColumn guifg=NONE guibg=#e8e6dc gui=NONE
-hi Conceal guifg=#788c5d guibg=NONE gui=NONE
+hi ColorColumn guifg=NONE guibg=#dcd4c0 gui=NONE
+hi Conceal guifg=#4f7d38 guibg=NONE gui=NONE
 hi CurSearch guifg=#faf9f5 guibg=#b16803 gui=bold
 hi Cursor guifg=#faf9f5 guibg=#d97757 gui=NONE
 hi CursorIM guifg=NONE guibg=#8b6cb0 gui=NONE
-hi CursorColumn guifg=NONE guibg=#f0eee7 gui=NONE
-hi CursorLine guifg=NONE guibg=#f0eee7 gui=NONE
-hi Directory guifg=#788c5d guibg=NONE gui=NONE
-hi DiffAdd guifg=#788c5d guibg=NONE gui=NONE
+hi CursorColumn guifg=NONE guibg=#e7e1d1 gui=NONE
+hi CursorLine guifg=NONE guibg=#e7e1d1 gui=NONE
+hi Directory guifg=#4f7d38 guibg=NONE gui=NONE
+hi DiffAdd guifg=#4f7d38 guibg=NONE gui=NONE
 hi DiffChange guifg=#b16803 guibg=NONE gui=NONE
 hi DiffDelete guifg=#c15f3c guibg=NONE gui=NONE
 hi DiffText guifg=#faf9f5 guibg=#c15f3c gui=bold
@@ -38,9 +57,9 @@ hi SignColumn guifg=NONE guibg=NONE gui=NONE
 hi IncSearch guifg=#faf9f5 guibg=#d97757 gui=bold
 hi LineNr guifg=#b5b3a9 guibg=NONE gui=NONE
 hi CursorLineNr guifg=#141413 guibg=NONE gui=bold
-hi MatchParen guifg=#141413 guibg=#e8e6dc gui=bold
+hi MatchParen guifg=#141413 guibg=#dcd4c0 gui=bold
 hi ModeMsg guifg=#d97757 guibg=NONE gui=bold
-hi MoreMsg guifg=#788c5d guibg=NONE gui=bold
+hi MoreMsg guifg=#4f7d38 guibg=NONE gui=bold
 hi NonText guifg=#b5b3a9 guibg=NONE gui=NONE
 hi Normal guifg=#141413 guibg=NONE gui=NONE
 hi NormalFloat guifg=#141413 guibg=#f3f1ea gui=NONE
@@ -54,7 +73,7 @@ hi PmenuExtra guifg=#6f6e69 guibg=#f0eee7 gui=NONE
 hi PmenuExtraSel guifg=#faf9f5 guibg=#d97757 gui=NONE
 hi PmenuSbar guifg=NONE guibg=#f0eee7 gui=NONE
 hi PmenuThumb guifg=NONE guibg=#b5b3a9 gui=NONE
-hi Question guifg=#788c5d guibg=NONE gui=underline
+hi Question guifg=#4f7d38 guibg=NONE gui=underline
 hi Search guifg=#141413 guibg=#d4952b gui=bold
 hi SpecialKey guifg=#8b6cb0 guibg=NONE gui=NONE
 hi SpellBad guifg=NONE guibg=NONE guisp=#c15f3c gui=undercurl
@@ -65,9 +84,9 @@ hi StatusLine guifg=#141413 guibg=#faf9f5 gui=NONE
 hi StatusLineNC guifg=#6f6e69 guibg=#faf9f5 gui=NONE
 hi TabLine guifg=#6f6e69 guibg=#faf9f5 gui=NONE
 hi TabLineFill guifg=#6f6e69 guibg=NONE gui=NONE
-hi TabLineSel guifg=#141413 guibg=#e8e6dc gui=NONE
+hi TabLineSel guifg=#141413 guibg=#dcd4c0 gui=NONE
 hi Title guifg=#d97757 guibg=NONE gui=NONE
-hi Visual guifg=NONE guibg=#e8e6dc gui=bold
+hi Visual guifg=NONE guibg=#dcd4c0 gui=bold
 hi WarningMsg guifg=#b16803 guibg=#f4e7c8 gui=bold
 hi Whitespace guifg=#b5b3a9 guibg=NONE gui=NONE
 hi WildMenu guifg=#faf9f5 guibg=#d97757 gui=bold
@@ -79,13 +98,13 @@ hi WinSeparator guifg=#b5b3a9 guibg=NONE gui=NONE
 " Syntax highlighting"{{{
 hi Comment guifg=#6f6e69 guibg=NONE gui=NONE
 hi Constant guifg=#b16803 guibg=NONE gui=NONE
-hi String guifg=#788c5d guibg=NONE gui=NONE
+hi String guifg=#4f7d38 guibg=NONE gui=NONE
 hi Character guifg=#2e8b8b guibg=NONE gui=NONE
 hi Number guifg=#d4952b guibg=NONE gui=NONE
 hi PreProc guifg=#8b6cb0 guibg=NONE gui=NONE
 hi Include guifg=#8b6cb0 guibg=NONE gui=NONE
 hi Identifier guifg=#6a9bcc guibg=NONE gui=NONE
-hi Function guifg=#788c5d guibg=NONE gui=NONE
+hi Function guifg=#4f7d38 guibg=NONE gui=NONE
 hi Statement guifg=#8b6cb0 guibg=NONE gui=NONE
 hi Type guifg=#2e8b8b guibg=NONE gui=NONE
 hi Typedef guifg=#2e8b8b guibg=NONE gui=NONE
@@ -163,7 +182,7 @@ hi! def link markdownBoldItalic NONE
 "}}}
 
 " vim-gitgutter"{{{
-hi GitGutterAdd guifg=#788c5d guibg=NONE gui=bold
+hi GitGutterAdd guifg=#4f7d38 guibg=NONE gui=bold
 hi GitGutterChange guifg=#b16803 guibg=NONE gui=bold
 hi GitGutterDelete guifg=#c15f3c guibg=NONE gui=bold
 "}}}

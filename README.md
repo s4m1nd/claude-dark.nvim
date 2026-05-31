@@ -65,10 +65,10 @@ pink       #f3aac5
 ```text
 background #faf9f5
 foreground #141413
-selection  #e8e6dc
+selection  #dcd4c0
 cursor     #d97757
 red        #c15f3c
-green      #788c5d
+green      #4f7d38
 yellow     #b16803
 blue       #6a9bcc
 purple     #8b6cb0

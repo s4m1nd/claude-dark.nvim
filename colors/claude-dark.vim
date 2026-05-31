@@ -16,6 +16,25 @@ let g:colors_name = 'claude-dark'
 " Claude Dark palette
 " bg=#262624 fg=#e5e4e1 selection=#363634 cursor=#d97757
 
+" Terminal ANSI colors"{{{
+let g:terminal_color_0 = '#262624'
+let g:terminal_color_1 = '#d47563'
+let g:terminal_color_2 = '#9aca86'
+let g:terminal_color_3 = '#e8c96b'
+let g:terminal_color_4 = '#6a9bcc'
+let g:terminal_color_5 = '#9b87f5'
+let g:terminal_color_6 = '#79d7b3'
+let g:terminal_color_7 = '#e5e4e1'
+let g:terminal_color_8 = '#888681'
+let g:terminal_color_9 = '#f4a9a9'
+let g:terminal_color_10 = '#a8d166'
+let g:terminal_color_11 = '#fab319'
+let g:terminal_color_12 = '#9fc5f4'
+let g:terminal_color_13 = '#f3aac5'
+let g:terminal_color_14 = '#79d7b3'
+let g:terminal_color_15 = '#efeeeb'
+"}}}
+
 " General colors"{{{
 hi ColorColumn guifg=NONE guibg=#363634 gui=NONE
 hi Conceal guifg=#9aca86 guibg=NONE gui=NONE

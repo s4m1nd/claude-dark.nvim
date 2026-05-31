@@ -6,10 +6,10 @@ end
 
 vim.api.nvim_set_hl(0, "LspInlayHint", { fg = "#6f6e69", bg = "#f0eee7" })
 
-vim.api.nvim_set_hl(0, "LspReferenceText", { bg = "#e8e6dc" })
-vim.api.nvim_set_hl(0, "LspReferenceRead", { bg = "#e8e6dc" })
-vim.api.nvim_set_hl(0, "LspReferenceWrite", { bg = "#e8e6dc" })
-vim.api.nvim_set_hl(0, "LspReferenceTarget", { bg = "#e8e6dc" })
+vim.api.nvim_set_hl(0, "LspReferenceText", { bg = "#dcd4c0" })
+vim.api.nvim_set_hl(0, "LspReferenceRead", { bg = "#dcd4c0" })
+vim.api.nvim_set_hl(0, "LspReferenceWrite", { bg = "#dcd4c0" })
+vim.api.nvim_set_hl(0, "LspReferenceTarget", { bg = "#dcd4c0" })
 
 vim.api.nvim_set_hl(0, "@lsp.type.class", { link = "@type" })
 vim.api.nvim_set_hl(0, "@lsp.type.namespace", { link = "@module" })
