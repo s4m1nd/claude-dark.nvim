@@ -32,17 +32,30 @@ Light mode is available as:
 vim.cmd.colorscheme("claude-light")
 ```
 
-For local development:
+### Follow your system appearance
+
+With [auto-dark-mode.nvim](https://github.com/f-person/auto-dark-mode.nvim),
+switch between Claude Dark and Claude Light when your system appearance changes:
 
 ```lua
-{
-  dir = "~/p/claude-dark.nvim",
-  name = "claude-dark.nvim",
-  lazy = false,
-  priority = 1000,
-  config = function()
-    vim.cmd.colorscheme("claude-dark")
-  end,
+return {
+  {
+    "s4m1nd/claude-dark.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "f-person/auto-dark-mode.nvim",
+    opts = {
+      update_interval = 1000,
+      set_dark_mode = function()
+        vim.cmd.colorscheme("claude-dark")
+      end,
+      set_light_mode = function()
+        vim.cmd.colorscheme("claude-light")
+      end,
+    },
+  },
 }
 ```
 
