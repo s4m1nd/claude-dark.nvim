@@ -7,9 +7,21 @@ highlight structure adapted from `hachy/eva01.vim` so transparent editor
 backgrounds keep working nicely while focused floats, completion menus,
 selections, and diagnostics stay readable.
 
+## Preview
+
+### Dark
+
 ![Claude Dark in Neovim](assets/claude-dark-preview.png)
 
-[Watch the theme in Neovim (MP4)](assets/claude-dark-demo.mp4)
+### Light
+
+![Claude Light in Neovim](assets/claude-light-preview.png)
+
+### In motion
+
+![Animated preview of Claude Dark in Neovim](assets/claude-dark-demo.gif)
+
+[Watch the full recording (MP4)](assets/claude-dark-demo.mp4)
 
 ## Install
 
