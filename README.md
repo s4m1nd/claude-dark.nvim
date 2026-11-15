@@ -7,6 +7,10 @@ highlight structure adapted from `hachy/eva01.vim` so transparent editor
 backgrounds keep working nicely while focused floats, completion menus,
 selections, and diagnostics stay readable.
 
+![Claude Dark in Neovim](assets/claude-dark-preview.png)
+
+[Watch the theme in Neovim (MP4)](assets/claude-dark-demo.mp4)
+
 ## Install
 
 Using [lazy.nvim](https://github.com/folke/lazy.nvim):
